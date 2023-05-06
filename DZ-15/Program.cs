@@ -7,12 +7,13 @@
 Console.WriteLine("Ввндите число дня недели: ");
 int num = int.Parse(Console.ReadLine());
 
-    if ((num >= 1) && (num <= 5))
+if ((num >= 1) && (num <= 5))
     Console.WriteLine("Этот день не выходной");
-else{        
-     if ((num == 6) | (num == 7))
+else
+{
+    if ((num == 6) | (num == 7))
         Console.WriteLine("Выходной");
-    else 
-        Console.WriteLine("Не существует такого дня недели"); 
-     
+    else
+        Console.WriteLine("Не существует такого дня недели");
+
 }
