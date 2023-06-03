@@ -16,3 +16,4 @@ for (int i = 0; i < 8; i++)
 string s = String.Join(", ", masiv);
  
         Console.WriteLine(s);       
+float randomFloat = (float)rand.NextDouble();
